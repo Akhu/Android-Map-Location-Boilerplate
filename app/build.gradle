@@ -60,3 +60,4 @@ def getApiKey(){
     props.load(new FileInputStream(new File('secrets.properties')))
     return props['GOOGLE_MAPS_API_KEY']
 }
+
